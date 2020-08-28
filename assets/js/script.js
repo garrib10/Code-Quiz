@@ -1,6 +1,7 @@
 var startButton = document.getElementById("start");
 var startScreen = document.getElementById("start-screen");
 var quizScreen = document.getElementById("quiz-screen");
+var questionEl = document.getElementById("question");
 var timerEl = document.getElementById("timer");
 var scoreEl = document.getElementById("score");
 var choiceA =document.getElementById("A");
@@ -10,7 +11,7 @@ var choiceD = document.getElementById("D");
 
 
 var timer = 60;
-var timerInterval = setInterval(clocktick, 1000)
+var timerInterval = setInterval(clocktick, 1000);
 var scoreEl = 0;
 
 startButton.addEventListener("click", function(){
@@ -26,6 +27,14 @@ if (timer ===0){
     clearInterval(timerInterval);
     return ;
 }  
- 
+
+
+
+
+
+
+
+
 }
+
 
