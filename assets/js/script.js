@@ -8,6 +8,10 @@ var choiceA =document.getElementById("A");
 var choiceB = document.getElementById("B");
 var choiceC = document.getElementById("C");
 var choiceD= document.getElementById("D");
+
+
+// Other global variables
+var currentQuestionIndex =0;
 var timer = 60;
 var timerInterval = setInterval(clocktick, 1000);
 var scoreEl = 0;
@@ -29,10 +33,7 @@ if (timer ===0){
     return ;
 } 
 
-function startQuiz() {
 
-    
-}
 
 
 
