@@ -17,3 +17,5 @@ Acceptance Criteria is the following:
 - THEN the game is over
 - WHEN the game is over
 - THEN I can save my initials and score
+
+<img width="1028" alt="Screen Shot 2020-08-29 at 9 45 14 PM" src="https://user-images.githubusercontent.com/68867054/91649373-5cdd4400-ea41-11ea-8bab-bbea49ed93d5.png">
