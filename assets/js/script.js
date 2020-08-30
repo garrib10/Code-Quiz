@@ -4,6 +4,8 @@ var quizScreen = document.getElementById("quiz-screen");
 var questionEl = document.getElementById("questions");
 var timerEl = document.getElementById("timer");
 var scoreEl = document.getElementById("score");
+var highscoreEL =document.getElementById("highscore");
+var highscoreName= document.getElementById("highscoreName")
 var buttonA =document.getElementById("A");
 var buttonB = document.getElementById("B");
 var buttonC = document.getElementById("C");
@@ -76,8 +78,15 @@ for (let i = 0; i < question.length; i++) {
    else {
      timer=-10;
    }
-
+ 
   }
+
+//store the scores on local storage
+function setScore() {
+localStorage.setItem("highscore", score);
+localStorage.setItem("highscoreName",  document.getElementById('name').value);
+getScore();
+}
 
 };
 
