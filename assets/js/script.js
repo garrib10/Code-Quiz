@@ -66,6 +66,7 @@ if (timer ===0){
     showScore () ;
 } 
 
+    
 
 };
 
