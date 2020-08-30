@@ -1,4 +1,5 @@
 ## [link to Code Quiz] (https://garrib10.github.io/Code-Quiz/)
+
 04 Web APIs: Code Quiz
 
 For this assignment, we were told to make a code quiz using html,css, and javascript. We were told too use on click events, for loops, addeventListeners, etc. Also, we were told to come up with questions for the quiz, and if you get one of the questions wrong you are penalized. For this quiz, I did a music theme which talked about different debut albums' from famous rock and roll bands. Sit back, you are in for a wild ride. 
