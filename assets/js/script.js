@@ -48,19 +48,18 @@ var quizQuestions = [{
 ];
 
 // Other global variables
-var currentQuestionIndex =0;
 var timer = 60;
 var timerInterval = setInterval(clocktick, 1000);
 var scoreEl = 0;
 
-
+//Start Button 
   startButton.addEventListener("click", function(){
     //make the start screen disapear
 startScreen.setAttribute("class", "hide");
 quizScreen.removeAttribute("class", "hide");
-quizQuestions.setAttribute("class","display");
 });
 
+//Timer 
 function clocktick (){
  timer--;
 timerEl.textContent = timer;
@@ -68,6 +67,17 @@ if (timer ===0){
     clearInterval(timerInterval);
     showScore () ;
 } 
+//For loop
+for (let i = 0; i < question.length; i++) {
+  if (response == question[i].correctAnswer) {
+    score=+20;
+    next ();
+  }
+   else {
+     timer=-10;
+   }
+
+  }
 
 };
 
