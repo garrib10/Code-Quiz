@@ -4,8 +4,6 @@ var quizScreen = document.getElementById("quiz-screen");
 var questionEl = document.getElementById("questions");
 var timerEl = document.getElementById("timer");
 var scoreEl = document.getElementById("score");
-var highscoreName=document.getElementById("high-score-intials");
-var highscoreDisplay = document.getElementById("high-score");
 var buttonA =document.getElementById("A");
 var buttonB = document.getElementById("B");
 var buttonC = document.getElementById("C");
@@ -40,11 +38,16 @@ var quizQuestions = [{
     choiceC: "Presence",
     choiceD: "Led Zeppelin;",
     correctAnswer: "D"},
-
- ];
+   {
+   question: "What was Black Sabbath's Debut Album?",
+   choiceA: "Paranoid",
+   choiceB: "Sabotage",
+   choiceC: "Forbidden",
+   choiceD: "Black Sabbath",
+   correctAnswer: "D"},
+];
 
 // Other global variables
-var finalQuestionIndex=quizQuestions.length;
 var currentQuestionIndex =0;
 var timer = 60;
 var timerInterval = setInterval(clocktick, 1000);
@@ -55,7 +58,7 @@ var scoreEl = 0;
     //make the start screen disapear
 startScreen.setAttribute("class", "hide");
 quizScreen.removeAttribute("class", "hide");
-
+quizQuestions.setAttribute("class","display");
 });
 
 function clocktick (){
@@ -65,8 +68,6 @@ if (timer ===0){
     clearInterval(timerInterval);
     showScore () ;
 } 
-
-    
 
 };
 
