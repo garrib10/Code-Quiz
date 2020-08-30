@@ -1,4 +1,4 @@
-## [link to Code Quiz] (https://garrib10.github.io/Code-Quiz/)
+## [link to Code Quiz] (https://garrib10.github.io/Code-Quiz/.)
 
 04 Web APIs: Code Quiz
 
