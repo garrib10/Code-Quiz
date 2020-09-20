@@ -7,31 +7,48 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>Code Quiz</title>
 </head>
 
 <body>
-    <div class="card" id="start-screen">
-        <h1 class="card-title" id="title">Code Quiz</h1>
-        <button class="btn btn-primary" id="start">Start</button>
-    </div>
-    <div class="card hide" id="quiz-screen">
-        <h2 id="question">Question</h2>
-        <h3 class="card-title" id="question-title"></h3>
-        <div id="questions" class= "btn-grid">
-        <button class= "btn btn-primary"> A</button>
-        <button class = "btn btn-primary">B</button>
-        <button class = "btn btn-primary">C</button>
-        <button class= "btn btn-primary">D</button>
-        <div id="result"></div>
+     <!-- Nav Bar For Scores and Timer -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
+        <div class="container navbar-container">
+            <div class="row w-100">
+                <div class="col-4 col-md-2">
+                    <button type="button" id="highscores" class="btn btn-lg btn-primary">View Scores</button>
+                </div>
+                <div class="col-3 col-md-7"></div>
+                <div class="col-5 col-md-3">
+
+                    <div class="form-group row">
+                        <label for="time-remaining" class="col-sm-7 col-form-label"></label>
+                        <div id="timer">Time Remaining: <span id="time-remaining">60</span></div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <br><br>
-        <h3 id="scoreEL">0</h3>
-        <h4 id="timer">60</h4>
-        <br><br>
-    </div>
-    </div>
- <script src="assets/js/script.js"></script>
+    </nav>
+
+    <!-- Main Questions  -->
+    <main id="main-content" class="container">
+        <div class="row mb-3">
+            <div class="card col-lg-12 text-center bg-transparent">
+                <div class="card-header">
+                    <h1>Code Quiz </h1>
+                    <br><br>
+                    <p id="card-text">Answer quiz questions before time runs out!</p>
+                    <br></br>
+                    <button id="start" class="btn-lg btn-primary">Start Quiz</button>
+                    <ul id="questions"></ul>
+                    <div id="indicator"></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
