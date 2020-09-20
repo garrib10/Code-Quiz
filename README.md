@@ -1,5 +1,3 @@
-## [Code Quiz Link](https://garrib10.github.io/Code-Quiz/)
-
 04 Web APIs: Code Quiz
 
 For this assignment, we were told to make a code quiz using html,css, and javascript. We were told too use on click events, for loops, addeventListeners, etc. Also, we were told to come up with questions for the quiz, and if you get one of the questions wrong you are penalized. For this quiz, I did a music theme which talked about different debut albums' from famous rock and roll bands. Sit back, you are in for a wild ride.
@@ -18,4 +16,6 @@ Acceptance Criteria is the following:
 - WHEN the game is over
 - THEN I can save my initials and score
 
-<img width="1028" alt="Screen Shot 2020-08-29 at 9 45 14 PM" src="https://user-images.githubusercontent.com/68867054/91649373-5cdd4400-ea41-11ea-8bab-bbea49ed93d5.png">
+Link to Deployed Site: ## [Code Quiz ](https://garrib10.github.io/Code-Quiz/)
+
+<img width="1216" alt="Screen Shot 2020-09-19 at 11 05 38 PM" src="https://user-images.githubusercontent.com/68867054/93693370-00fc5d00-facd-11ea-8b1e-be75b3dbe068.png">
