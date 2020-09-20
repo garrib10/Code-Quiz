@@ -16,6 +16,7 @@ Acceptance Criteria is the following:
 - WHEN the game is over
 - THEN I can save my initials and score
 
-Link to Deployed Site: ## [Code Quiz ](https://garrib10.github.io/Code-Quiz/)
+Link to Deployed Site: [Code Quiz ](https://garrib10.github.io/Code-Quiz/)
 
-<img width="1216" alt="Screen Shot 2020-09-19 at 11 05 38 PM" src="https://user-images.githubusercontent.com/68867054/93693370-00fc5d00-facd-11ea-8b1e-be75b3dbe068.png">
+
+<img width="1201" alt="Screen Shot 2020-09-19 at 11 09 23 PM" src="https://user-images.githubusercontent.com/68867054/93693392-3bfe9080-facd-11ea-9b85-f612021c26b3.png">
